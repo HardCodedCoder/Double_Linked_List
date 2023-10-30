@@ -45,7 +45,7 @@ public class MyList<T extends Comparable<T>> implements MyListADT<T> {
      */
     @Override
     public void insertAfter(T element, T reference) {
-        Node<T> newNode = new Node<T>(element);
+        Node<T> newNode = new Node<>(element);
         Node<T> current = head;
 
         while (current != null) {

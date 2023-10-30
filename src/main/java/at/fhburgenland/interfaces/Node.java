@@ -30,16 +30,4 @@ public class Node<T> {
         this.next = null;
         this.previous = null;
     }
-
-    /**
-     * Initializes a new instance of the Node class.
-     * @param value The value the node is holding.
-     * @param next The next node this node is pointing to.
-     * @param previous The previous node this node is pointing to.
-     */
-    public Node(T value, Node<T> next, Node<T> previous) {
-        this(value);
-        this.next = next;
-        this.previous = previous;
-    }
 }
